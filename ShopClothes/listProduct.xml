@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfProduct xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Product>
+    <Id>0</Id>
+    <Tensp>dfd</Tensp>
+    <Gia>111</Gia>
+    <Loai>male</Loai>
+    <Url_img>Image/1sell.png</Url_img>
+    <Sale>0</Sale>
+  </Product>
+</ArrayOfProduct>

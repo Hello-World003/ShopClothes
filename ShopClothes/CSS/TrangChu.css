@@ -1,0 +1,251 @@
+﻿* {
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: auto;
+}
+
+.page {
+    width: 1000px;
+}
+
+.Header {
+    width: 100%;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: gray;
+    text-align: center;
+}
+
+    .navigation a {
+        text-decoration: none;
+        color: gray;
+    }
+
+
+    .navigation li {
+        position: relative;
+    }
+
+    .navigation a:hover {
+        text-decoration: underline;
+        transition: 0.4s;
+    }
+
+
+
+/*SubMenu-Account*/
+ul .sub-menu {
+    position: absolute;
+    width: 130px;
+    display: none;
+    margin-top: 0;
+}
+
+.sub-menu li {
+    width: 100%;
+    display: block;
+    margin-left: 0 !important;
+}
+
+.navigation li:hover .sub-menu {
+    display: block;
+    transition: 0.4s;
+}
+
+
+.btnThoat{
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+/*Menu*/
+
+.Menu {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+    .Menu li {
+        display: inline;
+        list-style: none;
+    }
+
+        .Menu li a {
+            text-decoration: none;
+            color: gray;
+            font-size: 14px;
+            text-decoration-color: red;
+        }
+
+        .Menu li:hover {
+            width: 100%;
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+            transition: 0.4s;
+        }
+
+
+/*Content1*/
+.content1 {
+    width: 1000px;
+    height: 650px;
+}
+
+    .content1 img {
+        width: 1000px;
+        height: 600px;
+        position: absolute;
+        z-index: -1;
+    }
+
+.chu {
+    text-align: center;
+    padding: 25%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(80, 77, 63);
+}
+
+
+
+.content2 {
+    display: flex;
+}
+/*newArrival*/
+
+.newArrival {
+    color: black;
+    font-weight: bold;
+    margin-left: 0px;
+    width: 70%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.title {
+    width: 100%;
+}
+
+#listItemNew {
+    width: 100%;
+    display: inline-block;
+}
+
+.item {
+    margin-left: 0px;
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+
+    .item img {
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        z-index: -2;
+    }
+
+    .item .line1 {
+        display: inline;
+        margin: 5px;
+        width: 100%;
+        height: 300px;
+    }
+
+.cost {
+    padding-left: 20px;
+    padding-top:30px;
+}
+
+.new {
+    background-color: gray;
+    color: white;
+    float: right;
+    width: 50px;
+    margin-right: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.line2 {
+    margin: 5px;
+    width: 100%;
+    height: 300px;
+}
+
+    .line2 ul {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .line2 ul li {
+            width: 40px;
+            height: 40px;
+            text-align: 30px;
+            text-align: center;
+            list-style: none;
+            background-color: gray;
+            color: white;
+            display: none;
+        }
+
+            .line2 ul li:hover {
+                background-color: white;
+                color: black;
+                transition: 0.8s;
+            }
+
+.item:hover .line2 ul li {
+    display: block;
+    transition: 0.8s;
+}
+
+
+/*bestSeller*/
+.bestSeller {
+    width: 29%;
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.listBestSell {
+    display: block;
+}
+
+.itemSell {
+    display: flex;
+}
+
+.chuTo {
+    display: block;
+    width: 100%;
+}
+
+    .chuTo > img {
+        width: 80%;
+        height: 15 px;
+    }
+
+.sstar {
+    width: fit-content;
+}
