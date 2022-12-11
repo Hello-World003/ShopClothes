@@ -1,0 +1,24 @@
+﻿.TK_Content {
+    width: 1000px;
+    height: fit-content;
+}
+
+    .TK_Content table, tr {
+        width: 100%;
+        border: 1px solid black;
+        text-align: left;
+        border-spacing: 20px;
+    }
+
+
+.btnRemove {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+    .btnRemove:active {
+        background-color: yellow;
+        color: black;
+    }

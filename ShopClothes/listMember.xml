@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ArrayOfMember xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ArrayOfMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Member>
     <Id>0</Id>
     <NickName>admin@gmail.com</NickName>
@@ -9,8 +9,5 @@
     <Id>1</Id>
     <NickName>duc@gmail.com</NickName>
     <Pass>12345</Pass>
-  </Member>
-  <Member>
-    <Id>2</Id>
   </Member>
 </ArrayOfMember>

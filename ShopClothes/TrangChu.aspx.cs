@@ -20,8 +20,8 @@ namespace ShopClothes
                 re += "<div class=\"sub-menu\">\n";
                 re += "<p>ID:"+Session["Id"]+"</p>\n";
                 re += "<strong>Email:"+Session["NickName"]+"</strong>\n";
-                re += "<a href=\"#\"><p class=\"fas fa-th\">Quản lý mặt hàng</p></a>\n";
-                re += "<a href=\"#\"><p class=\"fas fa-users\">Quản lý tài khoản</p></a>\n";
+                re += "<a href=\"QuanLyMatHang.aspx\"><p class=\"fas fa-th\">Quản lý mặt hàng</p></a>\n";
+                re += "<a href=\"QuanLyTaiKhoan.aspx\"><p class=\"fas fa-users\">Quản lý tài khoản</p></a>\n";
                 re += "<a href=\"LogOut.aspx\"><p class=\"fa fa-power-off btnThoat\">Thoát</p></a>\n";
                 re += "</div>`\n";
                 re += "logOut.innerHTML=abc";

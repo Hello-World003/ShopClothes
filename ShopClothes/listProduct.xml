@@ -1,11 +1,27 @@
 <?xml version="1.0"?>
-<ArrayOfProduct xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Product>
-    <Id>0</Id>
-    <Tensp>dfd</Tensp>
-    <Gia>111</Gia>
-    <Loai>male</Loai>
-    <Url_img>Image/1sell.png</Url_img>
-    <Sale>0</Sale>
+    <Id>1</Id>
+    <Tensp>Aó </Tensp>
+    <Gia>1000000</Gia>
+    <Loai>female</Loai>
+    <Url_img>Image/1tokyo_street_by_arsenixc_daj4ocm.jpg</Url_img>
+    <Sale>10</Sale>
+  </Product>
+  <Product>
+    <Id>2</Id>
+    <Tensp>Quần</Tensp>
+    <Gia>200000</Gia>
+    <Loai>female</Loai>
+    <Url_img>Image/2tokyo_street_sunset_by_arsenixc_db9abol.jpg</Url_img>
+    <Sale>5</Sale>
+  </Product>
+  <Product>
+    <Id>3</Id>
+    <Tensp>Thung</Tensp>
+    <Gia>900000</Gia>
+    <Loai>children</Loai>
+    <Url_img>Image/9fed92a128c5f6ffc952ad1833e291f7.jpg</Url_img>
+    <Sale>5</Sale>
   </Product>
 </ArrayOfProduct>

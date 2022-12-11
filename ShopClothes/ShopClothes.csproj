@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\DangKy.css" />
+    <Content Include="CSS\HienThiMatHang.css" />
+    <Content Include="CSS\HienThiTaiKhoan.css" />
     <Content Include="CSS\TrangChu.css" />
     <Content Include="DangKy.aspx" />
     <Content Include="DangKy.html" />
@@ -83,6 +85,7 @@
     <Content Include="JS\QuanLyMatHang.js" />
     <Content Include="LogOut.aspx" />
     <Content Include="QuanLyMatHang.aspx" />
+    <Content Include="QuanLyTaiKhoan.aspx" />
     <Content Include="TrangChu.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -120,6 +123,13 @@
     </Compile>
     <Compile Include="QuanLyMatHang.aspx.designer.cs">
       <DependentUpon>QuanLyMatHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyTaiKhoan.aspx.cs">
+      <DependentUpon>QuanLyTaiKhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanLyTaiKhoan.aspx.designer.cs">
+      <DependentUpon>QuanLyTaiKhoan.aspx</DependentUpon>
     </Compile>
     <Compile Include="TrangChu.aspx.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
